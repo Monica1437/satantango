@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>撒旦探戈 | 三语对照</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background: #111;
+            color: #eee;
+            line-height: 1.8;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://img3.doubanio.com/view/subject/l/public/s2985767.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section {
+            margin-bottom: 60px;
+        }
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-left: 4px solid #d4af37;
+            padding-left: 10px;
+        }
+        /* 三语对照3栏布局 */
+        .trilingual {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .lang-card {
+            background: #222;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        .lang-card h3 {
+            color: #d4af37;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        /* 对比表格 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #444;
+            text-align: left;
+        }
+        th {
+            background: #333;
+            color: #d4af37;
+        }
+        /* 响应式：手机变1栏 */
+        @media (max-width: 768px) {
+            .trilingual {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 头部 -->
+    <header class="hero">
+        <h1>撒旦探戈 Sátántangó</h1>
+        <p>匈牙利语原版 / 英语译本 / 中文译本 对照</p>
+    </header>
+
+    <div class="container">
+
+        <!-- 简介区 -->
+        <section class="section">
+            <h2>关于作品与译本</h2>
+            <p><strong>作者：</strong>克拉斯诺霍尔卡伊·拉斯洛（László Krasznahorkai），匈牙利当代文学大师，2015年曼布克国际奖得主。</p>
+            <p><strong>匈牙利语原版：</strong>1985年出版，以超长句、压抑氛围、哲学隐喻著称。</p>
+            <p><strong>英语译本：</strong>George Szirtes 译，2012年出版，耗时27年。</p>
+            <p><strong>中文译本：</strong>余泽民 译，2017年译林出版社出版，被称为“翻译史上的奇迹”。</p>
+        </section>
+
+        <!-- 三语对照区（开篇段落） -->
+        <section class="section">
+            <h2>开篇段落对照</h2>
+            <div class="trilingual">
+                <!-- 匈牙利语 -->
+                <div class="lang-card">
+                    <h3>匈牙利语（原版）</h3>
+                    <p>Október végén, egy reggel, nem sokkal azelőtt, hogy a hosszú, kegyetlen eső első cseppei leestek a faluban nyugatra fekvő, száraz, repedezett sósvölgyre (azután az első fagyig a bűzös sár tenger járhatatlanná tette a kanyargó ösvényeket, és a város is elérhetetlenné vált), Futakit egy harangszó ébresztette.</p>
+                </div>
+                <!-- 英语 -->
+                <div class="lang-card">
+                    <h3>英语（George Szirtes 译）</h3>
+                    <p>Late one October morning, shortly before the first drops of the long, pitiless rain fell on the dry, cracked salt flats west of the village (after which, until the first frost, a stinking sea of mud rendered the winding paths impassable and the city unreachable), Futaki was woken by the sound of a bell.</p>
+                </div>
+                <!-- 中文 -->
+                <div class="lang-card">
+                    <h3>中文（余泽民 译）</h3>
+                    <p>十月末的一个清晨，就在冷酷无情的漫长秋雨在村子西边干涸龟裂的盐碱地上落下第一粒雨滴前不久（从那之后直到第一次霜冻，臭气熏天的泥沙海洋使逶迤的小径变得无法行走，城市也变得无法靠近），弗塔基被一阵钟声惊醒。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 深度对比表格 -->
+        <section class="section">
+            <h2>翻译维度对比</h2>
+            <table>
+                <tr>
+                    <th>对比维度</th>
+                    <th>匈牙利语原版</th>
+                    <th>英语译本</th>
+                    <th>中文译本</th>
+                </tr>
+                <tr>
+                    <td>句式特点</td>
+                    <td>超长复合句，层层嵌套</td>
+                    <td>适度拆分，保留长句节奏</td>
+                    <td>重组短句，符合中文流水句习惯</td>
+                </tr>
+                <tr>
+                    <td>词汇风格</td>
+                    <td>古旧、阴郁、具象</td>
+                    <td>文学化、典雅、克制</td>
+                    <td>凝练、写实、带乡土感</td>
+                </tr>
+                <tr>
+                    <td>节奏氛围</td>
+                    <td>压抑、凝滞、末日感</td>
+                    <td>流畅、沉稳、略带疏离</td>
+                    <td>紧凑、沉重、贴近现实</td>
+                </tr>
+                <tr>
+                    <td>翻译难点</td>
+                    <td>母语表达，无难点</td>
+                    <td>处理匈牙利语语法结构</td>
+                    <td>无从句体系，难还原长句张力</td>
+                </tr>
+            </table>
+        </section>
+
+    </div>
+
+    <!-- 页脚 -->
+    <footer style="text-align:center; padding:30px; border-top:1px solid #333; margin-top:60px;">
+        <p>© 2026 撒旦探戈三语对照 | 译本版权归原译者所有</p>
+    </footer>
+
+</body>
+</html>
